@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Full Stack Single Page Portfolio Website",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "dev": "npm --prefix backend run dev",
+    "start:fullstack": "concurrently \"npm --prefix backend start\" \"npm run frontend\"",
+    "dev:fullstack": "concurrently \"npm --prefix backend run dev\" \"npm run frontend\"",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "install-all": "npm install && cd backend && npm install && cd ..",
+    "frontend": "node scripts/serve-frontend.js"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "mern",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
