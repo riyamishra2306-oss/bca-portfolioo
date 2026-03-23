@@ -1,22 +1,12 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "Full Stack Single Page Portfolio Website",
+  "description": "Portfolio Website",
+  "main": "script.js",
   "scripts": {
-  "start": "node script.js",
-  "dev": "node script.js",
-   "frontend": "node scripts/serve-frontend.js"
+    "start": "node script.js"
   },
-  "keywords": [
-    "portfolio",
-    "fullstack",
-    "mern",
-    "express",
-    "mongodb"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^9.2.1"
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
